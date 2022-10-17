@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyOnlineMeals.com - About Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500;600&family=Bree+Serif&family=Ubuntu&display=swap');
+
+        /* CSS Reset */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* CSS variables */
+        :root {}
+
+        body {
+            background: radial-gradient(white, rgb(255, 201, 192));
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            position: relative;
+            display: flex;
+            align-items: center;
+            /*vertically center*/
+            /* justify-content: center; - horizontally center */
+        }
+
+        /* Navigation Bar : Logo */
+        #logo {
+            margin: 10px 15px;
+        }
+
+        #logo img {
+            height: 57px;
+            width: 55px;
+        }
+
+        #user img {
+            position: absolute;
+            right: 15px;
+            top: 6px;
+            height: 55px;
+            width: 55px;
+            background-color: white;
+            border-radius: 100px;
+        }
+
+        #signin {
+            position: absolute;
+            right: 17px;
+            top: 57px;
+            font-size: 17px;
+            color: white;
+            font-family: 'baloo bhai 2';
+        }
+
+        #signin:hover {
+            background-color: white;
+            color: black;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        /* Navigation Bar : List Items */
+        .navbar ul {
+            display: flex;
+        }
+
+        .navbar::before {
+            content: "";
+            background-color: black;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.5;
+        }
+
+        .navbar ul li {
+            font-size: 1.3rem;
+            list-style: none;
+        }
+
+        .navbar ul li a {
+            display: block;
+            /*it is blocked to give padding*/
+            padding: 3px 22px;
+            border-radius: 20px;
+            text-decoration: none;
+            color: white;
+            font-family: 'baloo bhai 2';
+        }
+
+        .navbar ul li a:hover {
+            color: black;
+            background-color: white;
+        }
+
+        .main-para {
+            font-size: 20px;
+            font-family: 'ubuntu';
+            padding: 2px 20px;
+        }
+
+        :root::before{
+            content: "";
+            position: absolute;
+            background: url('images/about.jpg')no-repeat center center/cover;
+            height: 210%;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.4;
+        }
+
+        #copy-footer .copy {
+            font-size: 22px;
+            text-align: center;
+            margin-top: 100px;
+            font-family: 'baloo bhai 2';
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div id="logo">
+            <img src="images/logo.png" alt="logo">
+        </div>
+        <ul>
+            <li class="item"><a href="index.html#home">Home</a></li>
+            <li class="item"><a href="index.html#services-container">Services</a></li>
+            <li class="item"><a href="index.html">About Us</a></li>
+            <li class="item"><a href="index.html#clients-container">Clients</a></li>
+            <li class="item"><a href="index.html#contact">Contact Us</a></li>
+        </ul>
+        <div id="signin">
+            Sign in
+        </div>
+        <div id="user">
+            <img src="images/user.png" alt="logo">
+        </div>
+    </nav>
+
+    <section id="about-content">
+        <h1 class="h-primary center">About Us</h1>
+        <p class="main-para center">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis qui delectus tenetur aut officiis ipsam
+            alias quo modi ab, nobis molestiae quasi repellat et tempore eius reiciendis, placeat accusantium laborum
+            laboriosam aliquam consectetur corrupti adipisci itaque. Fuga non, voluptatibus numquam aliquid a tempore
+            pariatur culpa laborum illo voluptatem adipisci exercitationem illum impedit est possimus cupiditate tempora
+            beatae delectus, ut minima facilis? Quo facere impedit ullam saepe! Dolorem ipsam quis ratione minus, iure
+            rem quasi ab ipsa. Distinctio quaerat blanditiis assumenda. Sed laudantium quam at consequatur eveniet
+            repudiandae natus dolores ad aliquid quod, quis perspiciatis quisquam maiores magni ipsum tempora saepe
+            reiciendis sint necessitatibus aperiam? Maxime, laudantium rerum quasi doloremque sit enim optio repellat,
+            tempora quas doloribus reprehenderit ab? In veniam ab ipsum accusamus asperiores nostrum tempora laboriosam
+            possimus doloremque assumenda necessitatibus aliquam, iste, dolore facilis consequuntur, eligendi maiores
+            accusantium molestias dignissimos animi itaque id. Reprehenderit aspernatur a quam facere similique ducimus
+            quaerat culpa ut ipsa voluptatibus perspiciatis, ad, eveniet ratione, animi porro necessitatibus reiciendis
+            quis iusto? Tempore vel alias repellat! Commodi vitae doloribus itaque enim deserunt, maxime provident
+            neque, sunt consectetur dolorum nam? Vero reiciendis possimus nihil doloremque explicabo. Ipsum aspernatur
+            placeat harum consectetur voluptatem, non esse libero repellendus vel eveniet adipisci! Amet blanditiis
+            nihil voluptas quasi similique fugiat, ad quo ratione dolorum magni sint neque quas aliquid asperiores
+            recusandae explicabo. Dolore voluptates, voluptate architecto neque earum nesciunt dolor maxime in. At
+            nesciunt, assumenda pariatur blanditiis possimus nulla placeat optio earum quisquam. Saepe sequi,
+            voluptatibus modi error, debitis molestiae doloribus at vel placeat est mollitia, porro dolore atque omnis
+            accusamus aperiam. Exercitationem earum quia ratione. Consequuntur ipsa quis esse est possimus repellat
+            dignissimos corrupti reiciendis itaque doloremque necessitatibus voluptate, et illum voluptas, quod expedita
+            odit iste explicabo commodi fugiat magnam hic quia ex. Reiciendis accusantium quasi odit. Voluptates,
+            accusamus, sint enim saepe at commodi earum maiores alias, quo odit minima veniam omnis quasi! Molestias
+            harum ipsa neque ea commodi pariatur temporibus tempora ullam, omnis atque corporis dolorem nostrum aliquam
+            ducimus unde cumque voluptas fugiat amet qui perferendis impedit soluta. Reiciendis suscipit non nulla ipsa
+            eligendi, dolores iure dolore eius, nemo adipisci dicta aut cupiditate at necessitatibus deserunt aliquam
+            magni dolorem itaque doloremque soluta ipsum! Vitae vero accusamus blanditiis deleniti, necessitatibus
+            alias! Repellat nihil cupiditate quis est accusamus magni aliquid numquam repellendus eaque maiores
+            perferendis tempore doloremque, alias esse libero sint nisi dolorum harum soluta aspernatur velit neque
+            veritatis, illo voluptates. Autem quod officia, corrupti id delectus et repudiandae. Tempora eligendi
+            distinctio odit est ratione eum voluptatem sit alias, vel dolorem quia magni commodi veritatis ad fugit
+            porro iste animi deserunt! Impedit quibusdam suscipit assumenda, ea eos, quos dolor, quis sit optio
+            necessitatibus ipsam adipisci! Fugit, excepturi quaerat ex alias recusandae at magnam, facere rerum placeat
+            vitae quam optio vero provident. Aliquam sint culpa adipisci saepe delectus fugiat, quod quia voluptas velit
+            odit exercitationem placeat eius esse quas voluptatum ipsam accusamus? Aspernatur commodi vitae ullam
+            numquam eligendi laboriosam deserunt? Dolor, qui tenetur obcaecati minima aperiam sint perspiciatis totam!
+            Consectetur inventore, eum nostrum quasi fuga sed aperiam optio architecto. Tenetur ducimus illum non qui
+            esse ipsa, velit fugiat. Ullam iste consequatur incidunt praesentium, ducimus voluptas eaque reprehenderit
+            fuga explicabo deleniti vero, laudantium quod nobis odio voluptatem, debitis numquam eos sint odit
+            necessitatibus quo pariatur a delectus. Impedit, quisquam ullam rem dignissimos placeat laboriosam id nulla
+            labore unde nihil enim autem a, iste cum minima eaque doloribus laborum praesentium! Porro a harum quibusdam
+            fugiat tempore, ipsum dolorum alias accusantium quis maiores vitae repellat voluptas corrupti maxime
+            doloribus beatae architecto suscipit, reprehenderit id laudantium inventore quam. Veritatis dolores,
+            voluptate dolorum quasi, repellat voluptatibus vitae impedit alias, non minima fugit quos debitis ab vero
+            dignissimos nihil corrupti! Hic neque assumenda harum deleniti ipsa? Odit deserunt soluta iste reiciendis,
+            vitae voluptatem labore! Dolore quia modi maxime quis corrupti dolorem mollitia esse molestias rem
+            repudiandae quibusdam consequuntur sint sequi, inventore eum expedita sed saepe error! Odio nisi nesciunt
+            pariatur quis ipsam nemo minus inventore veniam. Sint, beatae esse ducimus inventore dolorem minima
+            deserunt, vel ratione, doloribus ipsa non. Ipsa doloremque dicta molestiae repellat. Eius excepturi eaque
+            minus magni non quidem, aliquid distinctio totam unde maiores rem cupiditate esse aperiam delectus.
+            Voluptates quo similique quae, dolor velit quam mollitia odio consequatur impedit voluptatem, eaque
+            repudiandae iure saepe fuga? Necessitatibus quaerat debitis ut veniam? Ad expedita doloremque aliquam.
+            Distinctio natus, explicabo cumque officia quisquam delectus obcaecati magni, tempore vero maxime in iste ex
+            sint, suscipit omnis illo saepe adipisci fugit modi. Eius deleniti assumenda ea iusto voluptatum dolore
+            cumque vel facere excepturi, obcaecati, voluptatem aspernatur beatae quisquam. Mollitia vel sapiente porro
+            alias corporis iste nisi velit? Reiciendis aliquid magni ipsa labore quis in praesentium error quia
+            provident, asperiores ullam aspernatur, perferendis voluptas maxime, eligendi odio minima commodi tempore
+            consequatur impedit rem iste exercitationem dignissimos tenetur. Ad atque in inventore repudiandae voluptas
+            modi eius quaerat hic totam aliquid nostrum illo animi possimus est consequuntur, excepturi ut provident
+            quidem dolores odio perspiciatis, quod nobis ea. Ullam dolore mollitia enim possimus, nihil eligendi, minima
+            suscipit, repellendus esse delectus modi? In deleniti rem blanditiis repudiandae cumque tempore. Quo eius
+            obcaecati tempore fuga quas reiciendis. Provident nisi magni ullam explicabo architecto? Sunt eligendi
+            accusantium quibusdam assumenda inventore, architecto quod sed distinctio quaerat magnam laudantium
+            laboriosam reprehenderit error quia delectus optio ipsa repudiandae! Quisquam numquam est, adipisci
+            voluptatibus magni, eligendi nostrum in voluptates pariatur temporibus quam aperiam aliquid labore nesciunt
+            sint aspernatur delectus, suscipit at blanditiis ullam veritatis. Fugiat, magni quibusdam eligendi,
+            voluptatum quam dolorum illo fugit dolor ducimus, optio veritatis. Ut
+        </p>
+    </section>
+
+    <footer id="copy-footer">
+        <div class="copy">
+            Designed by <a href="https://www.instagram.com/aman_tiwari.21/?hl=en">Aman Tiwari</a> <br>
+            <a href="mailto:online@meals.com" target="_blank">myonline@meals.com</a><br> <br>
+            Copyright &copy 2022 www.myonlinemeals.com <br>
+            All rights reserved
+        </div>
+    </footer>
+
+</body>
+
+</html>
