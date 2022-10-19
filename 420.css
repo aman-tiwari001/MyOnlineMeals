@@ -1,3 +1,29 @@
+.navbar{
+    flex-direction: column;
+}
+
+#logo img{
+    height: 43px;
+    width: 41px;
+}
+
+#user img{
+    position: absolute;
+    right: 12px;
+    top: 73px;
+    height: 40px;
+    width: 40px;
+}
+
+#signin {
+    position: absolute;
+    right: 7px;
+    top: 109px;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
 .navbar::before{
     content: "";
     background-color: black;
