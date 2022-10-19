@@ -11,9 +11,9 @@
 
 }
 
-body{
+/* html{
     background: linear-gradient(white,rgb(255, 201, 192));
-}
+} */
 
 /* Navigation Bar */
 .navbar{
@@ -46,7 +46,7 @@ body{
     position: absolute;
     right: 17px;
     top: 57px;
-    font-size: 17px;
+    font-size: 1rem;
     font-family: 'baloo bhai 2';
 }
 
@@ -112,7 +112,7 @@ body{
 
 #home h1{
     position: relative;
-    top: 10px;
+    top: 0.9rem;
     color: rgb(0, 0, 0);
     font-family: 'bree serif';
     text-shadow: 7px 7px 5px rgb(255, 255, 255);
@@ -138,18 +138,34 @@ body{
 }
 
 #services .box{
-    margin: 10px;
+    margin: 0.625rem;
     border-radius: 28px;
     border: 2px solid brown;
-    padding: 15px;
+    padding: 1rem;
     background-color: rgb(240, 235, 235);
 
 }
 #services div img{
-    height: 200px;
-    width: 200px;
+    height: 12.5rem;
+    width: 12.5rem;
     margin: auto;
     display: block;
+}
+
+#services .box{
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+#services:hover>.box{
+    opacity: 0.7;
+    transform: scale(0.87);
+}
+
+#services>.box:hover{
+    opacity: 1;
+    transform: scale(1.056);
 }
 
 /* #services #thali{
@@ -206,9 +222,25 @@ body{
 }
 
 .clients img{
-    width: 240px;
-    height: 170px;
-    padding: 5px 7px;
+    width: 11.5rem;
+    height: 10rem;
+    margin: 1.2rem;
+    
+}
+.client-items{
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+.clients:hover .client-items{
+    opacity: 0.8;
+    transform: scale(0.9);
+}
+
+.clients>.client-items:hover{
+    transform: scale(1.2);
+    opacity: 1;
 }
 
 #services-container::before{
@@ -226,10 +258,10 @@ body{
     position: absolute;
     background: url("images/bg4.jpg")no-repeat center center/cover;
     width: 100%;
-    height: 100%;
+    height: 170%;
     opacity: 0.65;
-    z-index: -1;
-    margin-top: 193px;
+    z-index: -5;
+    margin-top: 103px;
 }
 
 #contact form{
@@ -256,34 +288,34 @@ body{
     margin-left: 20px;
     margin: 8px 10px;
     padding: 5px 9px;
-    width: 100%;
+    width: 80%;
     height: 5%;
     border: 2px solid brown;
     border-radius: 10px;
-    font-size: 18px;
-    background-color: rgb(253, 234, 231);
+    font-size: 1.2rem;
+    background-color: rgb(255, 255, 255);
 }
 
 #contact .form textarea {
-    width: 100%;
-    font-size: 20px;
+    width: 80%;
+    font-size: 1.2rem;
     border: 2px solid brown;
     border-radius: 10px;
     padding: 5px 9px;
     margin-left: 1.3%; 
-    background-color: rgb(253, 234, 231);
+    background-color: rgb(255, 255, 255);
 }
 
 #contact .form #submit{
     border-radius: 20px;
-    width: 10%;
+    width: 9%;
     color: rgb(255, 255, 255);
     background-color: tomato;
     display: block;
     margin: auto auto;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     text-align: center;
-    padding: 2px 9px;
+    padding: 2px 12px;
 }
 
 #contact .form #submit:hover{
@@ -293,13 +325,13 @@ body{
 
 
 #contact .form label{
-    font-size: 23px;
+    font-size: 1.4rem;
     font-family: 'baloo bhai 2';
     text-shadow: 2px 2px 2px white;
 }
 
 #copy-footer .copy{
-    font-size: 20px;    
+    font-size: 1.3rem;    
     text-align: center;
     margin-top: 100px;
     font-family: 'baloo bhai 2';

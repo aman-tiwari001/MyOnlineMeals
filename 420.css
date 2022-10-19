@@ -1,0 +1,33 @@
+#home h1{
+    position: relative;
+    top: 0.7rem;
+}
+
+#home p{
+    margin: 1px 0px;
+    font-size: 1rem;
+    display: block;
+    width: 190px;
+}
+
+.btn{
+    padding: 5px 5px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 9px;
+    background-color: brown;
+    font-size: 0.9rem;
+    width: 5.5rem;
+    margin-top: 17px;
+}
+
+.h-primary{
+    font-size: 1.8rem;
+}
+
+.h-secondary{
+    font-size: 1.4rem;
+}
+
+#contact .form #submit{
+    font-size: 13px;
+}
