@@ -22,6 +22,10 @@
     text-shadow: 3px 3px 4px rgb(255, 255, 255);
 }
 
+#services .box{
+    font-size: 1.4rem;
+}
+
 .clients{
     display: flex;
     justify-content: center;

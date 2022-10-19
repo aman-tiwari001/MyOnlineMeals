@@ -1,3 +1,12 @@
+.navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 111%;
+    z-index: -1;
+}
+
 #home h1{
     position: relative;
     top: 0.7rem;
@@ -8,6 +17,15 @@
     font-size: 1rem;
     display: block;
     width: 190px;
+}
+
+#home::before{
+    content: "";
+    background: url("images/bg.jpg") no-repeat center center/cover;
+    position: absolute;
+    height: 600px;
+    width: 111%;
+    z-index: -1;
 }
 
 .btn{
@@ -28,6 +46,31 @@
     font-size: 1.4rem;
 }
 
+#services .box{
+    font-size: 1rem;
+}
+
+#services-container::before{
+    content: "";
+    position: absolute;
+    background: url("images/bg5.jpg")no-repeat center center/cover;
+    width: 111%;
+    height: 178%;
+    opacity: 0.65;
+    z-index: -1;
+}
+
+#clients-container::before{
+    content: "";
+    position: absolute;
+    background: url("images/bg4.jpg")no-repeat center center/cover;
+    width: 111%;
+    height: 275%;
+    opacity: 0.65;
+    z-index: -5;
+}
+
 #contact .form #submit{
-    font-size: 13px;
+    font-size: 10px;
+    width: 20%;
 }

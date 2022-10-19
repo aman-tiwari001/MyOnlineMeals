@@ -10,6 +10,10 @@
     width: 275px;
 }
 
+#services .box{
+    font-size: 1.2rem;
+}
+
 .btn{
     padding: 5px 5px;
     border: 2px solid rgb(255, 255, 255);
